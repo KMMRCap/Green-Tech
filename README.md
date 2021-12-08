@@ -1,6 +1,5 @@
 # Green-Tech
-Simple personal website
-Responsive !!!
+Simple responsive personal website
 
 Using Html, Css, Bootstrap, JavaScript and JQuery
 
