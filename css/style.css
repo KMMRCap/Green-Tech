@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Vazir";
+  src: url(../fonts/Vazir.eot);
+  src: url(../fonts/Vazir.ttf) format("embedded-opentype");
+  src: url(../fonts/Vazir.woff) format("truetype");
+  src: url(../fonts/Vazir.woff2) format("woff2");
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+  direction: rtl;
+  text-align: right !important;
+  font-family: "Vazir" !important;
+  line-height: 1.6;
+  background: #fff;
+}
+
+#home {
+  background: url(./../img/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#home a .fa:hover {
+  font-weight: 550;
+  font-size: 18px;
+}
+
+.navbar.fixed{
+  position: fixed;
+  top: 0;
+  background: gray;
+  right: 0;
+  width: 100vw;
+  z-index: 99999;
+  padding-bottom: 1rem !important;
+}
+
+.navbar-collapse{
+  z-index: 99;
+}
+
+@media (max-width: 991.98px){
+  .navbar-collapse{
+    background-color: gray;
+  }
+}
+
+.navbar-nav{
+  transition: .3s ease;
+}
+
+.navbar-nav .active {
+  background: #0f7e05;
+  border-radius: 3px;
+}
+
+.navbar-nav li a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+  background: #0a0;
+  border-radius: 3px;
+}
+
+.navbar .navbar-toggler:hover {
+  background: rgb(37, 20, 20);
+}
+
+.more-info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.more-info a {
+  background: #0f7e05;
+}
+
+.more-info a:hover,
+.more-info a:focus {
+  background: #0a0;
+}
+
+.wellcome-img {
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.card .card-img-overlay {
+  border: 2px solid #fff;
+  top: 10px;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
+}
+
+.card .card-img-overlay .row .col h6 {
+  font-size: 13px;
+}
+
+#email:focus {
+  background: rgb(211, 187, 187);
+}
+
+.nav li a {
+  color: black;
+  transition: .3s ease;
+}
+
+.nav li a.active {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav li a:hover {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#comments .col .comment{
+  display: none;
+}
+
+#comments .col .comment.active{
+  display: block;
+}
+
+.comment-icons img{
+  opacity: .3;
+  transition: .3s ease;
+}
+
+.comment-icons img.active{
+  opacity: 1;
+}
+
+form .form-br {
+  border-radius: 50px;
+}
+
+form textarea.form-br {
+  min-height: 40px;
+}
+
+#contact-us .btn {
+  background: #0f7e05;
+}
+
+#contact-us .btn:hover,
+#contact-us .btn:focus {
+  background: #0a0;
+}
+
+#contact-us a .fa:hover {
+  font-size: 18px;
+  font-weight: 550;
+}
