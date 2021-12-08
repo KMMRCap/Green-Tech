@@ -5,7 +5,7 @@ Using Html, Css, Bootstrap, JavaScript and JQuery
 
 includes these functions :
 
-Sticky navbar
-Website progress tracker
-Filterable gallery
-Manual Comment Slider
+1. Sticky navbar
+2. Website progress tracker
+3.Filterable gallery
+4. Manual Comment Slider
